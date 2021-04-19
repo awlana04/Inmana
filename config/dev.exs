@@ -3,8 +3,8 @@ use Mix.Config
 # Configure your database
 config :inmana, Inmana.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "inmana_dev",
+  password: "docker",
+  database: "inmana",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
